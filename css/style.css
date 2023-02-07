@@ -121,12 +121,8 @@ nav li:hover {
 }
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
-.skip {
-  display: hidden;
-}
-
 .skip a {
-  position: relative;
+  position: absolute;
   top: -40px;
 }
 
